@@ -1,11 +1,9 @@
-const requestName = require('./js/name.js')
-const requestHobbies = require('./js/hobbies.js')
+const requestName = require('./name.js')
+const requestHobbies = require('./hobbies.js')
 
-const restitutions = () => {
-  const fullName = requestName("Omar", "Seddati")
-  const hobbies = requestHobbies("Computer", "Moto")
-  return {
-    fullName,
-    hobbies
-  };
-};
+const restitutions = () => ({
+  fullName: requestName("Omar", "Seddati"),
+  hobbies: requestHobbies("Computer", "Moto", "Gaming")
+});
+
+console.log(restitutions());

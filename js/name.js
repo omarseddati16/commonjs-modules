@@ -1,8 +1,7 @@
-const names = (firstName, lastName) => {
-  return {
-    firstName,
-    lastName
-  };
-};
+const names = (firstName, lastName) => ({
+  firstName,
+  lastName
+});
+
 
 module.exports = names
