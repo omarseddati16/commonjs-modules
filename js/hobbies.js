@@ -1,5 +1,5 @@
-const hobbys = (hobbyOne, hobbyTwo, hobbyThree) => {
+const hobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
   return [hobbyOne, hobbyTwo, hobbyThree];
 };
 
-module.exports = hobbys
+module.exports = hobbies
